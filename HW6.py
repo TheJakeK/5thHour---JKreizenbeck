@@ -6,7 +6,7 @@
 #1. Create a list with 9 different numbers inside.
 num_list = [67, 89, 910, 2, 5, 32, 31, 8, 1]
 #2. Sort the list from highest to lowest.
-num_list.sort()
+num_list.sort(reverse=True)
 print(num_list)
 #3. Create an empty list.
 empt_list = []
