@@ -9,6 +9,11 @@ temp = random.randint(1,30)
 print(temp)
 #3. Go to the link below and convert the code into pseudocode in comments, then code the flowchart completely:
 #https://adacomputerscience.org/images/content/computer_science/design_and_development/program_design/figures/ada_cs_design_flow_ifelseif.svg
+
+#If Temp is greater than 20, print "Its hot"
+#If Temp is less than 10, print "Its mild"
+#Else, print "Its cold"
+
 if temp > 20:
     print("It's hot")
 elif temp > 10:
